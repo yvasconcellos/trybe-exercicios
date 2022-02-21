@@ -5,3 +5,6 @@ css
 c++
 autoliderança
 autoconhecimento
+=======
+HTML
+Bash
