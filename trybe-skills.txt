@@ -1,5 +1,0 @@
-Js
-Git
-Github
-css
-c++
