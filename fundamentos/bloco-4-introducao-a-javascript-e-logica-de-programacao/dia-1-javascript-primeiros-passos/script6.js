@@ -1,4 +1,4 @@
-const pecaXadrez = "RAINHA";
+const pecaXadrez = "Rainha";
 
 if (pecaXadrez.toLowerCase() === "bispo") {
     console.log(pecaXadrez + ": Sem restrição de número de casas, mas somente no sentido diagonal");
