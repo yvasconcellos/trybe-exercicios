@@ -90,7 +90,15 @@
         sectionTag2.appendChild(imgSection2);
         imgSection2.src="https://picsum.photos/200";
         
-        
+        let listU = document.createElement('ul');
+        sectionTag3.appendChild(listU);
+        let arrayLista = ["Um", "Dois","Três", "Quatro", "Cinco", "Seis", "Sete", "Oito", "Nove", "Dez"];
+
+        for (let key in arrayLista) {
+            let listLi = document.createElement("li");
+            listLi.innerText = arrayLista[key];
+            listU.appendChild(listLi);
+        }
 
 
 
