@@ -69,13 +69,25 @@
         bodyPai.appendChild(mainTag);
        
 
-        let sectionTag = document.createElement('section');
-        sectionTag.className = 'center-content'
-        mainTag.appendChild(sectionTag);
+        let sectionTag1 = document.createElement('section');
+        sectionTag1.className = 'center-content'
+        mainTag.appendChild(sectionTag1);
 
         let pTag = document.createElement('p');
-        sectionTag.appendChild(pTag);
+        sectionTag1.appendChild(pTag);
         pTag.innerText = "Estamos focados em aprender";
+
+        let sectionTag2 = document.createElement('section');
+        sectionTag2.className = 'left-content'
+        mainTag.appendChild(sectionTag2);
+
+        let sectionTag3 = document.createElement('section');
+        sectionTag3.className = 'right-content';
+        mainTag.appendChild(sectionTag3);
+        
+        
+
+
 
     </script>
   </body>
